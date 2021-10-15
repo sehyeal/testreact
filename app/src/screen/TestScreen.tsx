@@ -30,7 +30,7 @@ const TestScreen = () => {
       );
       setProduct(res.data.product);
     } catch (e: any) {
-      console.log('error');
+      console.log('error!!');
     }
   };
 
