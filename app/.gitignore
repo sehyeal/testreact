@@ -19,7 +19,9 @@ xcuserdata
 DerivedData
 *.hmap
 *.ipa
+*.app.dSYM.zip
 *.xcuserstate
+project.xcworkspace
 
 # Android/IntelliJ
 #
@@ -29,22 +31,24 @@ build/
 local.properties
 *.iml
 *.hprof
+android/*.log
 
 # node.js
 #
 node_modules/
+package-lock.json # include if you are using npm - don't use both yarn and npm
+yarn.lock
 npm-debug.log
 yarn-error.log
+yarn.lock # include if you are using yarn - don't use both npm and yarn
 
 # BUCK
 buck-out/
 \.buckd/
-*.keystore
-!debug.keystore
 
-# fastlane
+# Fastlane
 #
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# It is recommended to not store the screenshots in the git repo. Instead, use Fastlane to re-generate the
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
@@ -54,7 +58,8 @@ buck-out/
 */fastlane/screenshots
 
 # Bundle artifact
-*.jsbundle
+*.jsbundlei
 
 # CocoaPods
 /ios/Pods/
+/ios/Podfile.lock
