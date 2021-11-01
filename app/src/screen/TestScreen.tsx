@@ -4,6 +4,7 @@ import React, {useEffect, useState} from 'react';
 import {View, Text, Dimensions, Image, ScrollView} from 'react-native';
 import Layout from '../components/Layout';
 import {SwiperFlatList} from 'react-native-swiper-flatlist';
+import {etheme} from '../styles/etheme';
 
 const TestScreen = () => {
   const {width} = Dimensions.get('window');
@@ -90,7 +91,7 @@ const TestScreen = () => {
               `}>
               <Text
                 style={css`
-                  font-size: 12px;
+                  font-size: ${etheme.fontSizes.smFontSize};
                   color: black;
                   font-weight: bold;
                 `}>

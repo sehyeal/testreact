@@ -1,0 +1,36 @@
+{
+  "name": "sweb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.5",
+    "@types/react": "^17.0.30",
+    "axios": "^0.23.0",
+    "core-js": "^3.18.3",
+    "mobx": "^6.3.5",
+    "mobx-react": "^7.2.1",
+    "next": "11.1.2",
+    "node-sass": "^6.0.1",
+    "react": "17.0.2",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "17.0.2",
+    "react-next-keep-alive": "^1.0.14",
+    "stitches-reset": "^1.0.0",
+    "swiper": "^7.0.9",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "eslint": "^8.0.1",
+    "eslint-config-next": "11.1.2",
+    "sass": "^1.43.2"
+  }
+}
